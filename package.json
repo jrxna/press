@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "press": "./bin/press.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jrxna/press.git"
@@ -17,5 +20,12 @@
   "bugs": {
     "url": "https://github.com/jrxna/press/issues"
   },
-  "homepage": "https://github.com/jrxna/press#readme"
+  "homepage": "https://github.com/jrxna/press#readme",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^17.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
